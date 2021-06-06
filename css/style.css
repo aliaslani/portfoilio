@@ -52,7 +52,7 @@ nav {
 
 nav ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -71,13 +71,12 @@ nav ul li {
   align-items: center;
 }
 
-.wb-body {
-  background: #111;
-  padding: 20px;
+.contact-info{
+  padding-left: 100px;
 }
 
-.hidden {
-  display: none;
+.about-info{
+  padding-left: 100px;
 }
 
 .cursor {
