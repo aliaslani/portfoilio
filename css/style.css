@@ -71,14 +71,6 @@ nav ul li {
   align-items: center;
 }
 
-.contact-info{
-  padding-left: 100px;
-}
-
-.about-info{
-  padding-left: 100px;
-}
-
 .cursor {
   font-weight: 700;
   animation: 1s blink step-end infinite;
