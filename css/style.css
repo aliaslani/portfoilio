@@ -87,6 +87,11 @@ h1{
     animation: slideInFromLeft 2s ease-in;
     font-size: 3vw;
   }
+  .showcase-text-right {
+    padding: 5px ;
+    animation: slideInFromRight 2s ease-in;
+    font-size: 3vw;
+  }
   #typedtext{
     font-size: 2vw;
     margin-top: 20px;
@@ -114,6 +119,15 @@ h1{
   @keyframes slideInFromLeft {
     0% {
       transform: translateX(-100%);
+    }
+  
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(+100%);
     }
   
     100% {
@@ -373,7 +387,6 @@ h3{
   background-color: #333;
   border-radius: 30%;
   padding:0;
-  margin-left: 20px;
 
   }
 #phone:hover{
