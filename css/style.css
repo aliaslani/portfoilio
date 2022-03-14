@@ -48,21 +48,21 @@ ul{
 }
 a{
     text-decoration: none;
-    color: #003300;
+    color: #009900;
 }
 h1{
     font-size: 4vw;
 }
 .fa:hover{
     color: #ddd;
-    background-color: #003300;
+    background-color: #009900;
     border-radius: 30%;
     padding:3%
 
 }
 
 .fa{
-    color: #003300; 
+    color: #009900; 
     font-size: 20vw;
 }
 
